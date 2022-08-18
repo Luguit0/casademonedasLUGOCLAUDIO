@@ -171,6 +171,26 @@ section{
     object-fit: cover;
     transition: transform .25s .35s;
 }
+.carta-titulo{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 5px;
+    background-color: #242329;
+    margin-top: 25px;
+}
+.carta-info{
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.carta-click{
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 10px;
+    color:#242329;
+    background-color: #fff;
+    transition: background-color .25s;
+}
 
 /*-TRANSICION -*/
 .deslizar{ 
