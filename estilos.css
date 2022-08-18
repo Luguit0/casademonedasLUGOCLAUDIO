@@ -206,7 +206,22 @@ section{
     transform: translateX(250px);
     transition-delay: 0s;
 }
-
+@media (max-width:1175px){
+    section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:15px;
+        justify-content: center;
+    }
+}
+@media (max-width:750px){
+    section{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap:15px;
+        justify-content: center;
+    }
+}
 /*-TRANSICION -*/
 .deslizar{ 
     width: 95%;
