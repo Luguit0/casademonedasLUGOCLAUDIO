@@ -191,6 +191,21 @@ section{
     background-color: #fff;
     transition: background-color .25s;
 }
+.carta-click:hover{
+    background-color:#242329;
+    color: #fff;
+}
+.carta:hover{
+    background-color:#242329;
+    color: #fff;
+}
+.carta:hover .carta-datos{
+    transform: translateY(0px);
+}
+.carta:hover .carta-img{
+    transform: translateX(250px);
+    transition-delay: 0s;
+}
 
 /*-TRANSICION -*/
 .deslizar{ 
