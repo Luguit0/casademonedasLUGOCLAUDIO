@@ -156,6 +156,15 @@ section{
     border: 5px solid #fff;
     overflow: hidden;
 }
+.carta-datos{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-250px);
+    transition: transform .5s;
+}
 
 /*-TRANSICION -*/
 .deslizar{ 
