@@ -147,7 +147,15 @@ section{
     margin: 20px;
     justify-items: center;
 }
-
+.carta{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-color: #242329;
+    text-align: center;
+    border: 5px solid #fff;
+    overflow: hidden;
+}
 
 /*-TRANSICION -*/
 .deslizar{ 
