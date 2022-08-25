@@ -244,7 +244,7 @@ section{
 
 
 /*------ CASILLA DE CONTACTO -----*/
-/* .formulario {
+.formulario {
     width: 400px;
     background-color: #fff;
     padding: 30px;
@@ -252,7 +252,7 @@ section{
     margin-top: 100px;
     border-radius: 4px;
     color: white;
-    border: 1px solid yellow;
+    border: 1px solid black;
 }
 .formulario h4 {
     text-align:start;
@@ -273,7 +273,7 @@ section{
     width: 100%;
     padding: 12px;
     margin: 16px 0px;
-} */
+}
 /*------ CASILLA DE CONTACTO FIN -----*/
 
 
